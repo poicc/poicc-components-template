@@ -1,5 +1,5 @@
 {
-  "name": "@poicc-components/examples",
+  "name": "create-poicc-components",
   "version": "1.0.0",
   "description": "poicc-components示例模版项目",
   "scripts": {
