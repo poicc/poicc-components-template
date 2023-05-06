@@ -12,6 +12,7 @@
     "poicc-components": "^1.0.2",
     "@commitlint/cli": "17.0.2",
     "@commitlint/config-conventional": "17.0.2",
+    "@vitejs/plugin-vue": "^4.2.1",
     "@vue/eslint-config-prettier": "^7.0.0",
     "ali-oss": "^6.17.0",
     "autoprefixer": "^10.4.2",

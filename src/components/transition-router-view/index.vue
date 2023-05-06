@@ -17,7 +17,6 @@
 </template>
 
 <script>
-/* eslint-disable @typescript-eslint/no-explicit-any */
 const NONE = 'none'
 const ROUTER_TYPE_PUSH = 'push'
 const ROUTER_TYPE_BACK = 'back'
@@ -26,7 +25,6 @@ const ROUTER_TYPE_ENUM = [NONE, ROUTER_TYPE_PUSH, ROUTER_TYPE_BACK]
 </script>
 
 <script setup>
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
 const props = defineProps({
@@ -47,7 +45,7 @@ const props = defineProps({
   mainComponentName: {
     typer: String,
     required: true
-  },
+  }
 })
 
 const router = useRouter()

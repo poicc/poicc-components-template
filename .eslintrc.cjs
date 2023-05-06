@@ -25,6 +25,8 @@ module.exports =   {
     'prettier/prettier': 'error',
     'vue/multi-word-component-names':'off',
     'no-undef': 'off',
-    'no-unused-vars': 'off'
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
+    'vue/no-unused-vars': 'off'
   }
 }
